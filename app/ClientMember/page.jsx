@@ -12,7 +12,7 @@ const Member = () => {
   });
   return (
     <div>
-      <h1 className="font-bold">Member Client Session</h1>
+      <h1 className="font-bold">Member Client Session data</h1>
       <div>
         <h1>{session?.user?.email}</h1>
         <h1>{session?.user?.role}</h1>
